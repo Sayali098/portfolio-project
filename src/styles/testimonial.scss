@@ -1,0 +1,52 @@
+#testimonial{
+    width: 100%;
+    background-color: $color4;
+    color: $color5;
+    padding: $p;
+
+    >h2{
+        font:700 2.5rem $text2;
+        align-items: center;
+        margin-bottom:3rem ;
+    }
+    >section{
+        width: 80%;
+        padding:8rem ;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: $color1;
+        gap: 20px;
+        height: 40rem;
+
+        >article{
+            display: flex;
+            flex-direction: column;  
+            width: 30%; 
+            background-color: $color4;
+            padding: 2rem;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+              position: relative;
+        }
+        img{
+            top: 0;
+            position:absolute;
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            transform: translateY(-50%);
+            border-radius: 50%;
+        }
+  p{
+    letter-spacing: 2px;
+    margin: 20px 0;
+    line-height: 160%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.9rem;
+  }
+    }
+}
