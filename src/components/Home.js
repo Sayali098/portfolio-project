@@ -4,7 +4,7 @@ import { animate, motion } from "framer-motion";
 import  Typewriter  from "typewriter-effect";
 
 import {BsArrowUpRight, BsChevronDown}  from "react-icons/bs";
-import me from "../assets/sayaliPic.jpeg";
+import me from "../assets/sayali.jpeg";
 
 
  export default function Home(){
