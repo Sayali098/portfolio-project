@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillInstagram, AiFillTwitterCircle, AiFillYoutube, AiOutlineArrowUp } from "react-icons/ai";
-import imgsrc from "../assets/sayali.jpeg";
+import imgsrc from "../assets/sayali1.jpg";
 
 function Footer(){
     return (

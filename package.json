@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@firebase/installations": "^0.6.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "firebase": "^9.21.0",
+    "firebase": "^10.7.1",
     "framer-motion": "^10.12.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,10 +28,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "env": {
-      "jest": true
-    }
+    ]
   },
   "browserslist": {
     "production": [
