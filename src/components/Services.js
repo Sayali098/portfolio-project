@@ -23,7 +23,7 @@ function Services(){
         },
 
         four:{
-            x:"100%",
+            x:"-100%",
             opacity:0,
         }
     }
