@@ -1,6 +1,6 @@
 #services{
     height:100vh ;
-    padding: $p;
+    padding: 30px $p;
     width: 100%;
     background-color: $color5;
     overflow: hidden;
@@ -60,7 +60,10 @@
         }
         .serviceBox4{
             grid-column: 2/4;
-            margin-top: -150px;
+             margin-top: -150px;
+
+
+
 
         }
     }
