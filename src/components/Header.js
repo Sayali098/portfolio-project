@@ -36,18 +36,18 @@ function Header({ setmenuOpen,menuOpen}){
 
   const NavContent=({setmenuOpen})=>(
     <>
-    <h2>Sayali </h2>
+    {/* <h2>Sayali </h2> */}
     <div>
           <a  onClick={()=> setmenuOpen(false)} href="#">Home</a>
           <a  onClick={()=> setmenuOpen(false)} href="#work">Work</a> 
           <a onClick={()=> setmenuOpen(false)}  href="#timeline">Experince</a>
           <a onClick={()=> setmenuOpen(false)}  href="#services">Services</a>
-          <a  onClick={()=> setmenuOpen(false)} href="#testimonial">Testimonial</a>
+          {/* <a  onClick={()=> setmenuOpen(false)} href="#testimonial">Testimonial</a> */}
           <a  onClick={()=> setmenuOpen(false)} href="#contact">Contact</a>
         
     </div>
-    <a href="https://www.instagram.com/">
-        <button>Email</button>
+    <a href="mailto:shelakesayali9022@gmail.com">
+        Gmail
     </a>
     </>
 )

@@ -4,7 +4,7 @@ import { animate, motion } from "framer-motion";
 import  Typewriter  from "typewriter-effect";
 
 import {BsArrowUpRight, BsChevronDown}  from "react-icons/bs";
-import me from "../assets/sayali1.jpg";
+import  myPhoto from "../assets/sayali1.jpg";
 
 
  export default function Home(){
@@ -14,7 +14,7 @@ import me from "../assets/sayali1.jpg";
    const projectCount=useRef(null);
  
    function animationClientsCount(){
-           animate(0,100,
+           animate(0,10,
            {
             duration:1,
             onUpdate:(v)=>( clientCount.current.textContent =v.toFixed())
@@ -26,7 +26,7 @@ import me from "../assets/sayali1.jpg";
 
            
    function animationProjectsCount(){
-      animate(0,500,
+      animate(0,5,
       {
        duration:1,
        onUpdate:(v)=>( projectCount.current.textContent =v.toFixed())
@@ -60,7 +60,7 @@ import me from "../assets/sayali1.jpg";
            </motion.h1>
            < Typewriter 
            options={{
-              strings:["A Developer","A Designer","A Creator"],
+              strings:["A Developer"],
               autoStart:true,
               loop:true,
               cursor:"",
@@ -94,10 +94,10 @@ import me from "../assets/sayali1.jpg";
            </aside>
            </div>
         </section>
-        <section>
-               <img src={me} alt={"sayali"}></img>
+        <section className="home-left">
+               <img src={myPhoto} alt={"sayali"}></img>
         </section>
-          <BsChevronDown></BsChevronDown>
+          {/* <BsChevronDown></BsChevronDown> */}
         </div>);
 }
 
